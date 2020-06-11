@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.BTN1{
+	width: 100%;
+	border: none;
+	background: none;
+	margin-top: 10px;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+.BTN1:hover{
+	color:black;
+}
+.logo{
+	font-size: 40px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 300px;
+	height: 300px !important;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+	
+  text-decoration: none;
+  display: block;
+  display: inline;
+	content: inherit();
+}
+.align{
+	text-align: center !important;
+	float: right;
+}
+.Services{
+	background: #2A2A2A;
+	width: 100%;
+	height: 500px;
+	background-size: 100%;
+	background-position: center;
+	
+}
+.back2{
+	background-image:url(../Images/Text.jpg);
+	width: 100%;
+	height: 400px;
+	background-size: 100%;
+	border-radius: 30px;
+}
+.back21{
+	background-image:url("../Images/currency-converter.png");
+	width: 100%;
+	height: 400px;
+	background-size: 100%;
+}
+.text12{
+	margin-top: 30px;
+	margin-bottom: 30px !important;
+}
+.nav1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 70px;
+	padding-top: 10px;
+	width: 100%;
+	background:#6EA24A;
+	padding-left: 30px;
+	background-size:100%;
+	border-radius: 100px;
+}
+.img10{
+	width: 40%;
+	height: 150px;
+}
+#do{
+	border: 2px #84CBE1 solid;
+	width: 9%;
+	height: 50px;
+	background: none;
+	font-size: 20px;
+}
+#do:hover{
+	border: 2px #84CBE1 dashed;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .BTN1 {background-color: #3e8e41;}
+.btn2{
+	color: white;
+}
+.btn2:hover{
+	color: black;
+}
+
+
+
+	body {
+  background: #333;
+}
+.video-container {
+  position: relative;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+.oil{background:url(index-3.jpg) no-repeat fixed; 
+	background-size:100%; 
+	height:700px;
+}
+.disc{
+	background:url(facebook.png) no-repeat; 
+	background-size:100%; border-radius:50px; 
+	border:1px solid #FFF; 
+	height:100px; 
+	width:100px; 
+	margin-top:25px; 
+	float:left; 
+	margin-left:20px;
+}
+.disc1{
+	background:url(twitter.png) no-repeat;
+	background-size:100%;
+	border-radius:50px;
+	border:1px solid #FFF; 
+	height:100px; width:100px
+		; margin-top:25px;
+	float:left; margin-left:20px;}
+.disc1:hover{ background:url(twitter1.png) no-repeat; background-color:#FFF; height:100px; width:100px; border-radius:50px; background-size:100%;}
+.disc:hover{ background:url(facebookq.png) no-repeat; background-color:#FFF; height:100px; width:100px; border-radius:50px; background-size:100%;}
+.disc2{background:url(pinterest.png) no-repeat; margin-top:25px; border:1px solid #FFF;height:100px; width:100px; border-radius:50px; background-size:100%; float:left; margin-left:20px;}
+.disc2:hover{background:url(pinterest1.png)  no-repeat; background-color:#FFF; height:100px; width:100px; border-radius:50px; background-size:100%;}
+
+.form2{
+	margin-top: 50px;
+}
+.ab2{
+	border: none;
+	margin-top: 50px;
+	padding-left: 100px;
+}
+.hexa{width:25%; padding:12px; background:#372d2b; margin:auto; color:#FFF; font-size:25px; text-align:center; margin-bottom:50px;  font-weight:500;}
+.hexa:hover{ background: transparent; color:#; border:2px solid #FDF6F6;}
+#div1{	margin-left:-49vh ;
+        background-color: red;
+        width:22vh;
+        height:2.7vh;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+}
+#hh1{
+
+        color: white;
+        margin-top: 1px;
+      }
+ #div2{
+margin-left:-49vh ;
+        background-color: red;
+        width:22vh;
+        height:2.7vh;
+
+
+      }
+
+.img9{
+align-content: center;
+margin-top:3vh;
+
+}
+.gg1{
+font-size: 25px;
+	color: wheat;
+}
+.gg2{
+font-size: 25px;
+	color: wheat;
+}
+.gg3{
+font-size: 25px;
+	color: wheat;
+}
+.gg4{
+font-size: 25px;
+	color: wheat;
+}
+.p1{
+font-size:35px;
+	color: wheat;
+}
+.back3{
+	background: url(../Images/nature.jpg) no-repeat;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.start{background:url(index-1.jpg) no-repeat fixed;font-family:century gothic;background-size:100%;background-position:center;height:800px;}
+.text{ color:#FFF; font-size:55px; font-weight:600; margin:50px;}
+.span1{font-size:20px; font-weight:300;}
+.text3{ width:100%;color:#FFF; font-size:70px; text-align:center;}
+.text4{color:#FFF; width:100%; font-size:70px; font-weight:bold; text-align:center;}
+.begin{text-align:center; transform:skewY(3px); background-color:#f3f0eb; font-family:century gothic; padding-top:60px; padding-bottom:60px;}
+.begin1{ text-align:center; font-size:50px;}
+.bright{transform:skew( 0deg, -10deg ); background:#FFF; width:100%;}
+.t1{ width:90%; margin:auto; color:#666; }
+
+.yo{font-size:45px; text-align:center; margin-bottom:100px;}
+.split1{height:150px;}
+.cat1{float:left; height:40px;}
+.cat2{width:70%; float:right;}
+.grey{color:#CCC;}
+.spit2{height:150px;}
+.bat1{float:left; height:80px;}
+.bat2{width:70%; float:right;}
+.split3{height:150px;}
+.rat1{float:left; height:50px;}
+.rat2{width:70%; float:right;}
+.split4{float:right; height:150px; padding-top:90px;}
+.hot1{float:left; height:50px;}
+.hot2{width:70%; float:right;}
+.split5{float:right; height:150px; padding-top:90px;}
+.cool1{float:left; height:60px;}
+.cool2{width:70%; float:right;}
+.split6{float:right; height:150px; padding-top:90px;}
+.walker1{float:left; height:62px;}
+.walker2{width:70%; float:right;}
+.snow{background:#241d1c; color:#FFF; font-family:century gothic; padding-bottom:70px; padding-top:80px;}
+.linking{color:#FFF;}
+.keep1{background:url(testi-1.jpg) no-repeat; width:266px;; float:left; margin-left:35px; border-radius:160px; height:270px;}
+.keep2{margin-top:70px; margin-right:60px; }
+.winter{background:#f3f0eb; text-align:center; padding-top:60px; padding-bottom:60px;}
+.any1{background:url(gallery-9-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any1:hover{  opacity:0.5;background-color:transparent;}
+.any2{background:url(gallery-8-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any2:hover{opacity:0.5;}
+.any3{background:url(gallery-7-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any3:hover{opacity:0.5;}
+.any4{background:url(gallery-6-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any4:hover{opacity:0.5;}
+.any5{background:url(gallery-5-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any5:hover{opacity:0.5;}
+.any6{background:url(gallery-4-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any6:hover{opacity:0.5;}
+.any7{background:url(gallery-10-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any7:hover{opacity:0.5;}
+.any8{background:url(gallery-11-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any8:hover{opacity:0.5;}
+.any9{background:url(gallery-12-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any9:hover{opacity:0.5;}
+.any10{background:url(gallery-13-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any10:hover{opacity:0.5;}
+.any11{background:url(gallery-14-475x360.jpg) no-repeat; height:217px; background-size:100%;}
+.any11:hover{opacity:0.5;}
+.any12{background:url(gallery-15-475x360.jpg) no-repeat; margin-bottom:70px; height:217px; background-size:100%;}
+.any12:hover{opacity:0.5;}
+.hope{background:#f3f0eb; text-align:center; padding-top:60px; padding-bottom:60px; font-family:century gothic;}
+.leaf{background:url(blog_home-1-370x285.jpg) no-repeat; float:right; width:85%; height:250px;}
+.leaf1{font-size:15px; text-align:center; width:85%; float:right;}
+.dead{background:url(blog_home-2-370x285.jpg) no-repeat; float:right; width:95%; height:250px;}
+.dead1{font-size:15px; text-align:center; width:85%; float:right;}
+.team{background:url(blog_home-3-370x285.jpg) no-repeat; float:right; width:100%; height:250px;}
+.team1{font-size:15px; text-align:center; width:85%; float:right;}
+
+.oil{background:url(index-3.jpg) no-repeat fixed; background-size:100%; height:700px;}
+.yet{margin-top:50px; color:#FFF; text-align:center;}
+.dot{ color:#FFF; font-family:century gothic;}
+.dragon{ font-family:century gothic; border:2px solid; color:#FFF; background:none; width:80%; height:50px; padding-left:20px;}
+.dragonm{height:100px;}
+.road{color:#FFF;}
+.road:hover{color:#633;}
+
+.ends{text-align:center; padding:30px;}
+.linkb{color:#000;}
+.back{background-color:#f3f0eb; font-family:century gothic; padding-right: 0px !important;
+padding-left: 0px !important;}
+.hexa1{width:35%; padding:6px; background:#372d2b; margin:auto; color:#FFF; font-size:30px; text-align:center; margin-left:130px;}
+.hexa1:hover{background:none; border:#FFF 1px solid;}
+.sarc{background-size:100%; width:100%; height:500px !important;}
+.carousel-control.left{background-image:none !important;}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 720px){
+.start{background-size:auto 100%; background-position:top centre; height:100%;}
+.text{ font-weight:bolder; margin:auto; text-align:center; width:100%; padding-bottom:40px; font-size:50px; padding-top:20px;} 
+.span1{font-size:20px;}
+.text3{font-size:40px; width:90%; margin:auto;} 
+.text4{font-size:40px; padding-bottom:100px; width:90%; margin:auto;}
+.begin1{font-size:40px; text-align:center;}
+.t1{font-size:15px;}
+.cry{background-size:auto 100%; height:100%; padding-left:25px; padding-bottom:20px;}
+.yo{font-size:40px; margin-bottom:60px;}
+.split1{height:220px;} .spit2{height:220px;} .split3{height:220px; margin-top:20px;}
+ .split4{height:220px;padding-top: 20px;} .split5{height:220px;padding-top: 20px;} .split6{height:220px;padding-top: 20px; margin-top:20px;}  
+.cat2{width:100%} .bat2{width:100%;} .rat2{width:100%;} .hot2{width:100%;} .cool2{width:100%;} .walker2{width:100%;}
+.keep{margin-top:0px; padding-top:20px;}
+.keep1{width:255px; float:none;}
+.keep2{width:100%; margin-top:10px; text-align:center; float:none; padding-bottom:0px; margin-bottom:-10px;}
+.leaf{background-size:100%; height:224px; float:none; width:100%;}
+.leaf1{width:100%; float:none; margin-bottom:20px;}
+.dead{width:100%; float:none; background-size:100%; height:224px;}
+.dead1{width:100%; float:none; margin-bottom:20px;}
+.team{width:100%; float:none; height:224px; background-size:100%;}
+.team1{width:100%; float:none; margin-bottom:20px;}
+.hexa{width:50%; padding:8px; font-size:20px; font-weight:bold;}
+.oil{background-size:auto 100%; height:100%; padding-bottom:20px; margin-top:10px;} .yet{margin-top:0px; padding-top:20px;}
+.dot{font-size:16px; margin-top:20px;}
+.disc{width:14%; margin-bottom:20px;}
+.disc:hoover{width:15%; margin:20px;}
+.disc1{width:14%; margin-bottom:20px;}
+.disc1:hover{width:15%; margin:20px;} 
+.dragon{width:100%; margin-top:20px;}
+.any12{margin-bottom:40px;}
+
+.sarc{height:135px !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
